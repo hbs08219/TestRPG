@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"FriendlyName": "AiGame Skill Runtime",
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"Description": "纯 C++ 技能/战斗运行时内核（数据驱动 + 注册式扩展）。零硬编码反向依赖游戏模块，可独立编译。由「游戏运行时模板」随 init 可选步骤分发，框架升级由 installer 回灌。",
+	"Category": "Programming",
+	"CreatedBy": "AiGame Team",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "AiGameSkillRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

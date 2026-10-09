@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
+    "strict": false,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "incremental": true,
+    "outDir": "Content/JavaScript",
+    "rootDir": "TypeScript",
+    "types": []
+  },
+  "include": [
+    "TypeScript/**/*.ts",
+    "Typing/**/*.d.ts"
+  ]
+}

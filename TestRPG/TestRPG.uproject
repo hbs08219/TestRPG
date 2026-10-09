@@ -1,0 +1,31 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "UE_5.8",
+  "Category": "Games",
+  "Description": "TestRPG UE C++ project",
+  "Modules": [
+    {
+      "Name": "TestRPG",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "AiGameBridge",
+      "Enabled": true
+    },
+    {
+      "Name": "Puerts",
+      "Enabled": true
+    },
+    {
+      "Name": "AiGameSkillRuntime",
+      "Enabled": true
+    },
+    {
+      "Name": "AiGameScriptHost",
+      "Enabled": true
+    }
+  ]
+}
